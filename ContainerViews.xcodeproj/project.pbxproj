@@ -22,6 +22,7 @@
 		8E81DDA31AB92E0D0015F83C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E81DD821AB92E0D0015F83C /* UIKit.framework */; };
 		8E81DDAB1AB92E0D0015F83C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DDA91AB92E0D0015F83C /* InfoPlist.strings */; };
 		8E81DDAD1AB92E0D0015F83C /* ContainerViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E81DDAC1AB92E0D0015F83C /* ContainerViewsTests.m */; };
+		8EE1ACE31AB92F0600AA0418 /* RandomColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE1ACE21AB92F0600AA0418 /* RandomColorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		8E81DDA81AB92E0D0015F83C /* ContainerViewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ContainerViewsTests-Info.plist"; sourceTree = "<group>"; };
 		8E81DDAA1AB92E0D0015F83C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8E81DDAC1AB92E0D0015F83C /* ContainerViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerViewsTests.m; sourceTree = "<group>"; };
+		8EE1ACE11AB92F0600AA0418 /* RandomColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomColorViewController.h; sourceTree = "<group>"; };
+		8EE1ACE21AB92F0600AA0418 /* RandomColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomColorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 		8E81DD841AB92E0D0015F83C /* ContainerViews */ = {
 			isa = PBXGroup;
 			children = (
+				8EE1ACE11AB92F0600AA0418 /* RandomColorViewController.h */,
+				8EE1ACE21AB92F0600AA0418 /* RandomColorViewController.m */,
 				8E81DD8D1AB92E0D0015F83C /* AppDelegate.h */,
 				8E81DD8E1AB92E0D0015F83C /* AppDelegate.m */,
 				8E81DD901AB92E0D0015F83C /* Main_iPhone.storyboard */,
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E81DD981AB92E0D0015F83C /* ViewController.m in Sources */,
+				8EE1ACE31AB92F0600AA0418 /* RandomColorViewController.m in Sources */,
 				8E81DD8F1AB92E0D0015F83C /* AppDelegate.m in Sources */,
 				8E81DD8B1AB92E0D0015F83C /* main.m in Sources */,
 			);
@@ -470,6 +476,7 @@
 				8E81DDB21AB92E0D0015F83C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E81DDB31AB92E0D0015F83C /* Build configuration list for PBXNativeTarget "ContainerViewsTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +485,7 @@
 				8E81DDB51AB92E0D0015F83C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
